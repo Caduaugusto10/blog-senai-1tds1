@@ -14,12 +14,12 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: rgb(23, 22, 22);
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
     height: 150px;
-    color: rgb(31, 172, 177);
+    color: rgb(222, 222, 222);
     align-items: center;
 }
 #logo-img {
@@ -33,6 +33,13 @@ header {
 }
 #links a {
     text-decoration: none;
-    color: #acacac;
+    color: #ffffff;
     font-size: 1.5rem;
+    border-bottom: 3px solid transparent;
+    border-radius: 6px;
+}
+#links a:hover {
+    border-bottom: 3px solid #ffffff;
+    color: #00b3ff;
+    transform: scale(1.05);
 }
