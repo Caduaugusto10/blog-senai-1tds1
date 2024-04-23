@@ -12,13 +12,27 @@ body {
     font-family: "Sedan", sans-serif;
     background-color: rgb(250, 248, 248);
 }
-h1 {
-    text-align: center;
-}
-h3 {
-    font-family: "Lugrasimo";
-}
+
 header {
+    background-color: black;
     display: flex;
     justify-content: space-around;
+    margin-top: 10px;
+    height: 150px;
+    color: rgb(31, 172, 177);
+    align-items: center;
+}
+#logo-img {
+    height: 100px;
+    width: 100px;
+}
+#links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+#links a {
+    text-decoration: none;
+    color: #acacac;
+    font-size: 1.5rem;
 }
